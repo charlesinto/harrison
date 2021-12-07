@@ -1,0 +1,12 @@
+.home-bg-cover {
+  background-image: url("/bg15.jpeg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  min-height: 90vh;
+  display: flex;
+  padding: 20px 0;
+  /* padding-bottom: 140px; */
+  position: relative;
+}

@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 a {
@@ -13,4 +12,428 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.custom-button {
+  border-radius: 2px;
+  padding: 10px 30px;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.bg-purple {
+  background-color: #f940fa;
+}
+
+.text-purple {
+  color: #f940fa;
+}
+
+.text-header {
+  font-size: 4.5rem;
+}
+
+.mobile-wrapper {
+  padding-bottom: 100px;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px 16px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling-wrapper .card {
+  display: inline-block;
+  background-color: #c4c4c4;
+  width: 75%;
+  max-width: 400px;
+  height: 200px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#gallery-picture .ReactGridGallery_tile-viewport:nth-child(4) {
+  margin-bottom: 20px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-rows: repeat(auto-fit, 260px);
+  grid-auto-flow: dense;
+  grid-gap: 0.3rem;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+}
+
+.text-title {
+  font-size: 2.95rem;
+}
+
+.text-subtitle {
+  font-size: 1.25rem;
+}
+
+.service-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  height: 100%;
+}
+
+.image-service-card {
+  position: relative;
+  width: 25%;
+  margin-right: 20px;
+  height: 260px;
+  cursor: pointer;
+}
+
+.service-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.image-service-card .floated-menu {
+  position: absolute;
+  bottom: -40px;
+  left: 2.5em;
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-service-card {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 85px;
+    height: 300px;
+  }
+  .service-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .wrapper {
+    padding-bottom: 100px;
+  }
+  .image-service-card .floated-menu {
+    bottom: -30px;
+  }
+}
+
+.floated-menu .wrapper {
+  padding: 10px;
+}
+
+.image-service-card .floated-menu h5 {
+  font-size: 13px;
+  text-align: center;
+}
+
+.image-service-card .floated-menu h3 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.booknow-button {
+  background-color: #f940fa;
+  padding: 10px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+
+.booknow-button h2 {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.text-grey {
+  color: #9a9a9a;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select {
+  background-color: #4a5664;
+  border: none;
+  outline: none;
+  color: #fff !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-group select:focus {
+  background-color: #4a5664;
+  color: #fff !important;
+  border: none;
+}
+
+.form-group input::placeholder,
+select::placeholder {
+  color: #d3d3d3;
+}
+
+.form-group input:focus {
+  background-color: #4a5664;
+  border: none;
+  outline: none;
+}
+
+.form-group label {
+  color: #fff;
+}
+
+.item-bar {
+  background-color: #fff;
+  padding: 10px 16px;
+}
+
+.banner-brown {
+  background-color: rgba(74, 86, 100, 0.7);
+  padding: 20px 16px;
+}
+
+.product-image {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.white-hr {
+  background-color: #fff;
+  height: 2px;
+  opacity: 1;
+}
+
+.shop-button-wrapper {
+  background: rgba(249, 64, 250, 0.1);
+  border: none;
+  padding: 10px 10px;
+  color: #f940fa;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home-store-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  grid-gap: 0px 0px;
+  grid-auto-rows: auto;
+  margin: 20px 0px;
+  position: sticky;
+  /* top: 105px; */
+  top: 5px;
+  min-height: calc(100vh - 5px);
+}
+
+.home-store-list .img-card img {
+  width: 100%;
+  height: auto;
+  max-width: auto;
+}
+p {
+  margin: 0;
+}
+p.home-store-price {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 0 0 10px;
+}
+.home-store-list .img-card {
+  width: 100%;
+  /* height: 200px; */
+  /* grid-row-end: span 18; */
+  /* border: 1px solid #bababc; */
+  /* margin-bottom: 10px; */
+  background: #fff;
+  /* padding: 0px 0 19px 0; */
+  position: relative;
+  cursor: pointer;
+}
+
+.home-store-list .img-card:hover {
+  background: #d3d3d3;
+}
+
+.home-store.header-icons-bag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.home-store-description-container {
+  min-height: 30px;
+}
+
+.home-search-bar-icon-form .bars.icon {
+  display: none;
+}
+.home-search-bar-icon-form span .bars.icon {
+  line-height: 50px;
+  margin-left: 8px;
+  font-size: 1.8em;
+}
+
+.home-search-bar-icon-form form {
+  flex: 1;
+}
+
+/* IPAD QUERY */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles */
+  .home-store-list {
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr)) !important;
+    min-height: calc(100vh - 105px);
+  }
+  .side-menu-container {
+    display: none;
+  }
+  .home-container {
+    grid-column-end: span 4 !important;
+  }
+  .home-store.header-icons-bag {
+    font-size: 0.9em !important;
+    top: 0.9em;
+    right: 0.9em;
+  }
+  p.home-store-price {
+    font-size: 0.8em;
+  }
+  .home-store-list .img-card {
+    /* padding-bottom: 5px !important; */
+  }
+  .home-store-description-container {
+    min-height: 2.2em;
+  }
+  .home-search-bar {
+    position: sticky !important;
+    top: 0;
+  }
+  .home-store-list {
+    top: 55px;
+  }
+  .header-container {
+    position: relative;
+  }
+  .home-search-bar-icon-form {
+    display: flex !important;
+    flex-direction: row;
+  }
+  .home-search-bar-icon-form .bars.icon {
+    display: block;
+  }
+  .home-search-bar .category {
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and(min-width: 1024px) and (max-width: 1025px) {
+  .home-store-description-container {
+    min-height: 3em !important;
+  }
+}
+.category-menu-display {
+  z-index: 9999;
+  background: #fff;
+  /* width: 50%; */
+  /* position: fixed; */
+  position: absolute;
+  /* top: 105px; */
+  bottom: calc(-69vh);
+  left: 0;
+  height: calc(70vh);
+  -webkit-transition: min-width 0.5s ease, display 0.5s ease; /* For Safari 3.1 to 6.0 */
+  transition: min-width 0.5s ease, display 0.5s ease;
+}
+
+.home-store-menu-list {
+  transition: 3s ease-in-out;
+}
+
+.side-menu-container ul,
+.home-store-menu-list ul {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.side-menu-container ul li,
+.home-store-menu-list ul li {
+  list-style: none;
+  line-height: 2em;
+  width: calc(100% - 20px);
+}
+
+.side-menu-container ul li:hover,
+.home-store-menu-list ul li:hover {
+  background: #d3d3d3;
+  cursor: pointer;
+}
+
+.side-menu-container ul li a,
+.home-store-menu-list ul li a {
+  color: #000;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+}
+
+.side-menu-container ul li a,
+.home-store-menu-list ul li a:hover {
+  text-decoration: none;
+}
+.side-menu-container ul li i,
+.home-store-menu-list ul li i {
+  float: right;
+  font-size: 0.9em;
+}
+.home-store-menu-list div.close {
+  width: 100%;
+  text-align: right;
+}
+.home-store-menu-list div.close span i {
+  margin-right: 10px;
+  margin-top: 10px;
 }
