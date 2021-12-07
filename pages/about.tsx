@@ -45,15 +45,15 @@ const About = () => {
                 <p>
                   Being a Queen is all about the glamour. Harrison aesthetics is
                   a renowned beauty esthetics clinic located in the heart of
-                  lekki phase one in Lagos state. We offer natural &
+                  lekki phase one in Lagos state. We offer natural &amp;
                   professional luxury eyelash extensions with premium quality
-                  products. Our services includes; eyelash extensions, natural &
-                  mink lashes, microblading, eyebrow threading, facials, nails
-                  and peels. Our Serene environment and esthetic touch gives our
-                  clients glamourous look to protrude beauty. We provide the
-                  elegance you need and trust us to make you stand out. Give us
-                  a try and be assured that you'll be convinced to become our
-                  customers.
+                  products. Our services includes; eyelash extensions, natural
+                  &amp; mink lashes, microblading, eyebrow threading, facials,
+                  nails and peels. Our Serene environment and esthetic touch
+                  gives our clients glamourous look to protrude beauty. We
+                  provide the elegance you need and trust us to make you stand
+                  out. Give us a try and be assured that you'll be convinced to
+                  become our customers.
                 </p>
               </h1>
             </div>
