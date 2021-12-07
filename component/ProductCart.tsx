@@ -59,10 +59,7 @@ const ProductCart: NextPage<ProductCartProps> = ({
         <button className="shop-button-wrapper">&#8358; 15,000</button>
         <div className="d-flex">
           <button onClick={() => addToCart()} className="shop-button-wrapper">
-            <span className="mx-2">
-              <i className="ion ion-ios-cart"></i>
-            </span>
-            ADD TO CART
+            REMOVE FROM CART
           </button>
           <div className="mx-3">
             <div className="shop-button-wrapper counter-button-wrapper">
