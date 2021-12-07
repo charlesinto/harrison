@@ -52,8 +52,8 @@ const About = () => {
                   nails and peels. Our Serene environment and esthetic touch
                   gives our clients glamourous look to protrude beauty. We
                   provide the elegance you need and trust us to make you stand
-                  out. Give us a try and be assured that you'll be convinced to
-                  become our customers.
+                  out. Give us a try and be assured that you will be convinced
+                  to become our customers.
                 </p>
               </h1>
             </div>
