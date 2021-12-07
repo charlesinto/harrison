@@ -437,3 +437,49 @@ p.home-store-price {
   margin-right: 10px;
   margin-top: 10px;
 }
+
+.counter-button-wrapper {
+  display: flex;
+  min-width: 90px;
+}
+
+.input-wrap {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  background: none;
+  border: none;
+  color: #f940fa;
+  width: 70px;
+}
+
+.input-wrap:focus {
+  outline: none;
+  border: none;
+}
+
+.minus-btn,
+.plus-btn {
+  cursor: pointer;
+}
+
+.minus-btn {
+}
+
+.plus-btn {
+}
+
+.price-detail h1 {
+  font-weight: 400;
+  font-size: 1.55em;
+}
+
+.ml-3 {
+  margin-left: 0.4em;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-device {
+    width: 50% !important;
+  }
+}

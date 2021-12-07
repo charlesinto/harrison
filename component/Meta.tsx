@@ -28,21 +28,16 @@ const Meta: NextPage<Props> = ({ title, content, keywords }) => {
           rel="stylesheet"
         />
         <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
           crossOrigin="anonymous"
-        ></link>
+        />
         <link
           href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
           rel="stylesheet"
         />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/css/tempusdominus-bootstrap-4.min.css"
-          integrity="sha512-3JRrEUwaCkFUBLK1N8HehwQgu8e23jTH4np5NHOmQOobuC4ROQxFwFgBLTnhcnQRMs84muMh0PnnwXlPq5MGjg=="
-          crossOrigin="anonymous"
-        />
+
         <title>{title}</title>
         <meta name="description" content={content} />
         <meta name="keywords" content={keywords} />
