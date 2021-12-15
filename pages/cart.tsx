@@ -10,7 +10,7 @@ import Button from "../component/Button";
 const Cart = () => {
   return (
     <div className="wrapper">
-      <Meta title="Shop - Harrison Products" />
+      <Meta title="Cart - Harrison Products" />
       <div className={styles["home-bg-cover"]}>
         <div className="overlay"></div>
 
